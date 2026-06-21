@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Registration Form</title>
+</head>
+
+<body>
+
+    <form>
+        <h1>
+            <font color="red">Employee Registration Form</font>
+        </h1>
+        <table border="0" cellpadding="5" cellspacing="0">
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" id="mr" name="title" checked> <label for="mr">Mr.</label>
+                    <input type="radio" id="mrs" name="title"> <label for="mrs">Mrs.</label>
+                    <input type="radio" id="ms" name="title"> <label for="ms">Ms.</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="firstName">First Name</label></td>
+                <td><input type="text" id="firstName" placeholder="First Name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="lastName">Last Name</label></td>
+                <td><input type="text" id="lastName" placeholder="Last Name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="address1">Mail Address1</label></td>
+                <td><input type="text" id="address1"></td>
+            </tr>
+
+            <tr>
+                <td><label for="address2">Mail Address2</label></td>
+                <td><input type="text" id="address2"></td>
+            </tr>
+
+            <tr>
+                <td><label for="city">City</label></td>
+                <td><input type="text" id="city"></td>
+            </tr>
+
+            <tr>
+                <td><label for="state">State</label></td>
+                <td>
+                    <select id="state">
+                        <option value="gujarat" selected>Gujarat</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="zip">Zip</label></td>
+                <td><input type="text" id="zip"></td>
+            </tr>
+
+            <tr>
+                <td><label for="photo">Upload Photo</label></td>
+                <td><input type="file" id="photo"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">E-Mail</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="mobile">Mobile</label></td>
+                <td><input type="text" id="mobile" value="+91"></td>
+            </tr>
+
+            <tr>
+                <td valign="top"><label>Languages known</label></td>
+                <td>
+                    <input type="checkbox" id="gujarati" checked> <label for="gujarati">Gujarati</label><br>
+                    <input type="checkbox" id="hindi" checked> <label for="hindi">Hindi</label><br>
+                    <input type="checkbox" id="english" checked> <label for="english">English</label><br>
+                    <input type="checkbox" id="marathi"> <label for="marathi">Marathi</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top"><label for="additionalInfo">Additional Information</label></td>
+                <td>
+                    <textarea id="additionalInfo" rows="4" cols="30" placeholder="Optional"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
